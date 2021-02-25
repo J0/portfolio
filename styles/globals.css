@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* 
+  Header CSS styles
+*/
+.header-nav-list {
+  float: right;
+}
+
+.header-nav-list>li {
+  float: left;
+}
+
+.header-nav-logo {
+  float: left;
+}
+
+li {
+  list-style: none;
+}

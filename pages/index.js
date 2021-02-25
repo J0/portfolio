@@ -5,8 +5,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <nav class="header-nav group">
+          <h1 class="header-nav-logo">
+            Joel Lee
+          </h1>
+          <ul class="header-nav-list group">
+            <li>
+              <a href="#">Tab One</a>
+            </li>
+            <li>
+              <a href="#">Tab Two</a>
+            </li>
+            <li>
+              <a href="#">Tab Three</a>
+            </li>
+          </ul>
+        </nav>
       </Head>
 
       <main className={styles.main}>
