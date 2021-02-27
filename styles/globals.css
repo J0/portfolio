@@ -18,18 +18,35 @@ a {
 /* 
   Header CSS styles
 */
-.header-nav-list {
+.header_nav {
+  width: 800px;
+  margin: auto;
+}
+
+.header_nav_list {
   float: right;
 }
 
-.header-nav-list>li {
+.header_nav_list>li {
   float: left;
 }
 
-.header-nav-logo {
+.header_nav_logo {
   float: left;
 }
 
 li {
   list-style: none;
+}
+
+header {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+
+group {
+  content: "";
+  display: block;
+  clear: both;
 }

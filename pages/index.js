@@ -1,28 +1,17 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
+
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <nav class="header-nav group">
-          <h1 class="header-nav-logo">
-            Joel Lee
-          </h1>
-          <ul class="header-nav-list group">
-            <li>
-              <a href="#">Tab One</a>
-            </li>
-            <li>
-              <a href="#">Tab Two</a>
-            </li>
-            <li>
-              <a href="#">Tab Three</a>
-            </li>
-          </ul>
-        </nav>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
+      <Navbar></Navbar>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
