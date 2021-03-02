@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
