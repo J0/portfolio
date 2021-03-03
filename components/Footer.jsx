@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <div class="sm:flex mb-4">
+            <div className="sm:flex mb-4 p-8">
 
                 <div className="sm:w-1/4 h-auto">
                     <div className="font-bold mb-2">Orange</div>
@@ -30,12 +30,12 @@ const Footer = () => {
 
 
                 </div>
-                <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
-                    <div class="font-bold mb-2">Newsletter</div>
-                    <p class="text-grey-darker leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, consectetur. </p>
-                    <div class="mt-4 flex">
-                        <input type="text" class="p-2 border border-grey-light round text-grey-dark text-sm h-auto" placeholder="Your email address"></input>
-                        <button class="bg-orange text-white rounded-sm h-auto text-xs p-3">Subscribe</button>
+                <div className="sm:w-1/2 sm:mt-0 mt-8 h-auto">
+                    <div className="font-bold mb-2">Newsletter</div>
+                    <p className="text-grey-darker leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, consectetur. </p>
+                    <div className="mt-4 flex">
+                        <input type="text" className="p-2 border border-grey-light round text-grey-dark text-sm h-auto" placeholder="Your email address"></input>
+                        <button className="bg-orange text-white rounded-sm h-auto text-xs p-3">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                 href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="italic"
+                className="italic p-8"
             >
                 Copyright Joel Lee 2021
             </a>
