@@ -3,14 +3,6 @@ const Footer = () => {
         <footer>
             <div className="sm:flex mb-4 p-8">
 
-                <div className="sm:w-1/4 h-auto">
-                    <div className="font-bold mb-2">Orange</div>
-                    <ul className="list-reset leading-normal">
-                        <li className="hover:text-orange text-grey-darker">One</li>
-                        <li className="hover:text-orange text-grey-darker">Two</li>
-                        <li className="hover:text-orange text-grey-darker">Three</li>
-                    </ul>
-                </div>
                 <div className="sm:w-1/4 h-auto sm:mt-0 mt-8">
                     <div className="font-bold mb-2">Blue</div>
                     <ul className="list-reset leading-normal">
@@ -18,7 +10,6 @@ const Footer = () => {
                         <li className="hover:text-blue text-grey-darker">Two</li>
                         <li className="hover:text-blue text-grey-darker">Three</li>
                     </ul>
-
                 </div>
                 <div className="sm:w-1/4 h-auto sm:mt-0 mt-8">
                     <div className="font-bold mb-2">Green-dark</div>
@@ -27,8 +18,6 @@ const Footer = () => {
                         <li className="hover:text-green-dark text-grey-darker">Two</li>
                         <li className="hover:text-green-dark text-grey-darker">Three</li>
                     </ul>
-
-
                 </div>
                 <div className="sm:w-1/2 sm:mt-0 mt-8 h-auto">
                     <div className="font-bold mb-2">Newsletter</div>
@@ -40,14 +29,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
+            <p
                 className="italic p-8"
             >
                 Copyright Joel Lee 2021
-            </a>
+            </p>
 
         </footer>
     )
