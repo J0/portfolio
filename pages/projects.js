@@ -15,12 +15,10 @@ export default function About() {
             ></img>
             <div className="p-4">
               <h3 className="font-medium text-gray-600 text-lg my-2 uppercase">
-                Project 1
+                Postgrest-Ex
               </h3>
               <p className="text-justify">
-                The be might what days revellers, which sought to a nor. Land
-                from to suits his some. Saw him counsel begun mother though but.
-                Ofttimes soils of since mighty pollution.
+                PostgREST is a library which exposes Postgres as a database.
               </p>
               <div className="mt-5">
                 <a
@@ -43,9 +41,7 @@ export default function About() {
                 Project 2{" "}
               </h3>
               <p className="text-justify">
-                Rapping wind chamber have was has, is all of thy stood chamber
-                his bore. Nameless or as door tapping both thy grew lenore. We
-                my still respiterespite lie, with lordly.
+                Rapping wind chamber have was has, is all of thy stood chamber.
               </p>
               <div className="mt-5">
                 <a
