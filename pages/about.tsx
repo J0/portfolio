@@ -5,10 +5,14 @@ export default function About() {
     return (
         <div>
             <Navbar></Navbar>
-            <p className="text-xl">This is the about page</p>
             <div>
-                <p>Some text</p>
-                <p>Worth considering</p>
+                <p>Welcome to my page</p>
+                <p>Here are some facts you may wish to know about me</p>
+                <ol>
+                    <li>I like ice cream</li>
+                    <li>and polar bears</li>
+                    <li>And santa claus</li>
+                </ol>
             </div>
             <Footer></Footer>
         </div>

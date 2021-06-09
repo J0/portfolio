@@ -38,10 +38,10 @@ export default function About() {
             ></img>
             <div className="p-4">
               <h3 className="font-medium text-gray-600 text-lg my-2 uppercase">
-                Project 2{" "}
+                Supabase-py{" "}
               </h3>
               <p className="text-justify">
-                Rapping wind chamber have was has, is all of thy stood chamber.
+                Python Client library for an open source version of Firebase
               </p>
               <div className="mt-5">
                 <a
