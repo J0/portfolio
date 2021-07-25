@@ -15,10 +15,6 @@ export default function Home() {
 
       <Navbar></Navbar>
       <main className={styles.main}>
-        <div className="flex space-x-4">
-          <p> A paragraph</p>
-          <p>Another paragraph</p>
-        </div>
         <h1 className={styles.title}>
           Welcome to Joel's Site!
         </h1>
