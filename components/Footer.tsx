@@ -32,7 +32,7 @@ const Footer = () => {
             <p
                 className="italic p-8"
             >
-                Copyright Joel Lee 2021
+                Copyright Joel Lee © 2022
             </p>
 
         </footer>
